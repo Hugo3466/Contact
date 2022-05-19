@@ -1,0 +1,181 @@
+td{
+    border:1px green solid;
+    padding:5px;
+    font-size:  17px;
+    vertical-align: middle;
+    text-align: left;
+    /*border: 2px solid red;*/
+    float: flex;
+    
+    
+}
+#banniere{
+    background-image:url("téléchargement.png");
+    height:400px;
+    width:60%;
+    margin:auto;
+}
+
+th{
+    /*border: 2px solid red;*/
+    background-color: blueviolet;
+    color:coral;
+    border-color:green;
+    }
+   
+#carte
+{ width: 600px;
+    margin:auto;
+    background-color:yellow;
+    
+    
+       }
+
+#footer{
+    background : black;
+    width:92.5%;
+    justify-content: center;/*centrer horizentalement*/
+    display:flex;
+    padding:30px;
+    margin-left:auto;/* pour centrer notre body ou autre bloc- marge "auto" et indiquer un width*/
+    margin-right: auto;/* pour centrer notre body ou autre bloc-marge "auto" et indiquer un width*/
+    /*margin:0px auto;
+    position:relative;*/
+}
+
+#footer{
+    font-size:20px ;
+    color:darkgoldenrod;
+}
+
+a{
+    text-decoration:none;
+    font-size: 20px;
+    color:blue;
+   
+
+}
+
+div{
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+
+h1{ font-size:30px;
+    color: darkred;/*couleur du texte*/
+    
+
+    
+
+}
+
+
+    
+
+
+
+
+
+#t{background-color: yellow;
+
+}
+
+#nav {
+    padding:0;margin: 10px;;
+    text-align:center;
+ }
+ #nav li {
+     display:inline;
+     list-style:none;
+ }
+ #nav a {
+display:inline-block;
+margin:0 40 3 40px;
+background:Black;
+width: 120px;
+text-decoration: none;
+color:yellow;
+height:30px;
+line-height: 3 50 3 50px;
+padding: 0 50px;
+font-family:sans-serif;
+font-size: 28px;
+
+}
+
+.z{
+    border:2px green solid;
+
+}
+caption{
+    font-size:20px;
+    color: darkred;
+}
+table{
+    width:100%;
+    margin-bottom:10px;
+    margin-right: auto;
+    margin-left: auto;
+    border:ridge 1.5px;
+    empty-cells: hide;
+    border-collapse:separate;/*pour fusionner les bordures de tout le tableau et de cellules */
+    text-align:center;
+    }
+
+    .stp{background-color:yellow;
+    }
+
+    #g{
+       
+        background-image:url"https://f.hellowork.com/blogdumoderateur/2013/02/nyan-cat-gif-1.gif";
+    }
+
+    body{
+    
+        background-image: url("https://f.hellowork.com/blogdumoderateur/2013/02/nyan-cat-gif-1.gif")
+    }
+
+    fieldset{
+        margin-bottom:15px;
+        padding:10px;
+        width:80%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    legend{
+        padding: 0px 3px;
+        font-weight:bold;
+        font-variant: small-caps;
+    }
+
+    label{
+        width:110px;
+        display: inline-block;
+        vertical-align: top;
+        margin: 6px;
+    }
+    em{
+        font-weight:bold;
+        font-style:normal;
+        color:#f00;
+    }
+
+    input:focus{
+        background:#FA8072;/*#eaeaea*/
+    }
+    input{
+        vertical-align: baseline;
+        padding:2px;
+        margin:2px;
+    }
+    textarea{
+        height: 100px;
+        width: 300px;
+    }
+    
+    select{
+        width: 180px;
+    }
